@@ -12,9 +12,8 @@ client = discord.Client()
 
 @client.event
 async def on_ready():
-    for guild in client.guilds:
-        if guild.name == GUILD:
-            break
+    # guild = discord.utils.find(lambda g: g.name == GUILD, client.guilds)
+    guild = discord.utils.get(client.guilds, name=GUILD)
 
     print(f'{client.user} has connected to Discord!')
     print(
