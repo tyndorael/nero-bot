@@ -1,0 +1,27 @@
+{
+  "name": "nero-bot",
+  "version": "1.0.0",
+  "description": "Umu generator",
+  "main": "index.js",
+  "author": "Tyndorael",
+  "license": "MIT",
+  "scripts": {
+    "start": "node .",
+    "start:dev": "nodemon ."
+  },
+  "dependencies": {
+    "discord.js": "^12.3.1",
+    "dotenv": "^8.2.0",
+    "pino": "^6.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.7.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "nodemon": "^2.0.4",
+    "pino-pretty": "^4.1.0",
+    "prettier": "2.1.0"
+  }
+}
